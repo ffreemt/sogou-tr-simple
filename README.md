@@ -8,6 +8,8 @@ sogou translate no frills
 
 ```bash
 pip install sogou-tr
+
+# pip install sogou-tr -U  # upgrade to the latest version
 ```
 
 ## Usage
