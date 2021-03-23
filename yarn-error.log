@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js black
+
+PATH: 
+  C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files\ImageMagick-7.0.7-Q16;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\PuTTY\;C:\Python\Python36\Scripts\;C:\Python\Python36\;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files (x86)\Gow\bin;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\WinMerge;C:\Program Files (x86)\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\Common Files\Apple\Internet Services\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Users\mike\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\EmEditor;C:\Program Files\Tcl86\bin;C:\apps\tools;C:\cygwin\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Process Lasso\;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Users\mike\.poetry\bin;C:\Python\Python36\lib\site-packages\pywin32_system32;C:\Program Files\ConEmu\ConEmu\Scripts;C:\apps\Neovim\bin;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw32\bin;C:\Users\mike\.cargo\bin;C:\Users\mike\scoop\shims;C:\Users\mike\AppData\Local\Microsoft\WindowsApps;C:\Users\mike\AppData\Local\Programs\Fiddler;C:\Users\mike\AppData\Local\atom\bin;C:\Users\mike\AppData\Roaming\npm;C:\ProgramData\chocolatey\lib\msys2;C:\tools\msys64;C:\Users\mike\AppData\Local\hyper\app-2.0.0\resources\bin;C:\apps\babun\.babun;c:\dl\Dropbox\mat-dir\snippets-mat\bin;C:\Users\mike\.nimble\bin;C:\Users\mike\.local\bin;C:\Users\mike\AppData\Local\Yarn\bin;C:\Program Files\CMake\bin;C:\Users\mike\AppData\Local\Microsoft\WindowsApps
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  15.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\dl\Dropbox\mat-dir\myapps\pypi-projects\sogou-tr-simple\package.json: Unexpected token 
+   in JSON at position 344
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "sogou-tr-simple",
+    "version": "0.1.0",
+    "description": "sogou translate no frills",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "pyright": "nodemon -w sogou_tr -w .venv -e .py -x pyright sogou_tr",
+      "pytest": "nodemon -w tests -w sogou_tr -e .py -x pytest tests",
+      "black": "nodemon -w sogou_tr -w tests -x
+      \"black tests sogou_tr && flake8.bat\"",
+      "pylint": "nodemon -w sogou_tr -e .py -x pylint sogou_tr",
+      "test:sogou_tr": "nodemon -w tests -e .py -x pytest -k sogou_tr tests"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

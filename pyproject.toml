@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sogou-tr-simple"
+version = "0.1.0"
+description = "sogou translate no frills"
+authors = ["freemt"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/ffreemt/sogou-tr-simple"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+logzero = "^1.7.0"
+httpx = "^0.17.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

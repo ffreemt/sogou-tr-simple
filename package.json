@@ -1,0 +1,14 @@
+{
+  "name": "sogou-tr-simple",
+  "version": "0.1.0",
+  "description": "sogou translate no frills",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pyright": "nodemon -w sogou_tr -w .venv -e .py -x pyright sogou_tr",
+    "pytest": "nodemon -w tests -w sogou_tr -e .py -x pytest tests",
+    "black": "nodemon -w sogou_tr -w tests -x  \"black tests sogou_tr && flake8.bat\"",
+    "pylint": "nodemon -w sogou_tr -e .py -x pylint sogou_tr",
+    "test:sogou_tr": "nodemon -w tests -e .py -x pytest -k sogou_tr tests"
+  }
+}
