@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sogou-tr-simple"
+name = "sogou-tr"
 version = "0.1.0"
 description = "sogou translate no frills"
 authors = ["freemt"]
