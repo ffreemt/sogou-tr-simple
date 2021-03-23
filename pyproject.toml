@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sogou-tr"
-version = "0.1.0"
+version = "0.1.1"
 description = "sogou translate no frills"
 authors = ["freemt"]
 license = "MIT"
