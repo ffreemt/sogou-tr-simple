@@ -25,6 +25,6 @@ jobs:
       - name: Run flake8
         run: |
           poetry run flake8 --exit-zero
-          # poetry run pytest
+          # poetry run pytest tests sogou_tr
       - name: Run pytest
-        run: poetry run pytest
+        run: poetry run pytest tests sogou_tr

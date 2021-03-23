@@ -11,9 +11,13 @@ repository = "https://github.com/ffreemt/sogou-tr-simple"
 python = "^3.7"
 logzero = "^1.7.0"
 httpx = "^0.17.1"
+langid = "^1.1.6"
+fuzzywuzzy = "^0.18.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+flake8 = "^3.9.0"
+tbump = "^6.3.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
